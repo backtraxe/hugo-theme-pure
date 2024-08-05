@@ -1,0 +1,15 @@
+name = "Pure"
+description = "一个 Hugo 博客主题。"
+
+license = "MIT"
+licenselink = "https://github.com/backtraxe/hugo-theme-pure/blob/main/LICENSE"
+
+homepage = "https://github.com/backtraxe/hugo-theme-pure"
+demosite = "https://backtraxe.github.io/hugo-theme-pure"
+
+tags = ["博客"]
+features = ["护眼", "简约"]
+
+[author]
+name = "Backtraxe"
+homepage = "https://github.com/backtraxe"
