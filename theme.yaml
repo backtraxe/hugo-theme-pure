@@ -1,0 +1,33 @@
+name: Pure
+
+license: MIT
+
+licenselink: https://github.com/backtraxe/hugo-theme-pure/blob/main/LICENSE
+
+description: 一个 Hugo 博客主题。
+
+homepage: https://github.com/backtraxe/hugo-theme-pure
+
+demosite: https://github.com/backtraxe/hugo-theme-pure
+
+tags:
+  - blog
+  - company
+
+features:
+  - some
+  - awesome
+  - features
+
+authors:
+  - name: Backtraxe
+    homepage: https://github.com/backtraxe
+
+author:
+  name: Backtraxe
+  homepage: https://github.com/backtraxe
+
+original:
+  author: Backtraxe
+  homepage: https://github.com/backtraxe
+  repo: https://github.com/backtraxe

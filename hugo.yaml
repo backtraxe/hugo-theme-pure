@@ -1,0 +1,69 @@
+baseURL: https://example.org/
+
+languageCode: en-US
+
+title: My New Hugo Site
+
+markup:
+  defaultMarkdownHandler: goldmark
+
+  # markdown 渲染器
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          # 公式块
+          block:
+            - - $$
+              - $$
+          # 行内公式
+          inline:
+            - - $
+              - $
+    renderer:
+      # 允许 html 标签
+      unsafe: true
+
+  # 代码块高亮
+  highlight:
+    # anchorLineNos: false
+    # codeFences: true
+    # guessSyntax: false
+    # lineNoStart: 1
+    # lineNos: false
+    # lineNumbersInTable: true
+    # noClasses: true
+    # tabWidth: 4
+    style: github
+
+  # 目录
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false
+
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: Posts
+      pageRef: /posts
+      weight: 2
+    - name: Tags
+      pageRef: /tags
+      weight: 3
+
+module:
+  noProxy: none
+  noVendor: ""
+  private: "*.*"
+  proxy: direct
+  replacements: ""
+  vendorClosest: false
+  workspace: "off"
+
+  hugoVersion:
+    extended: false
+    min: "0.120.0"
